@@ -3,14 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap4": "0.0.1-security",
+    "jquery": "^3.3.1",
     "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "reactstrap": "^4.8.0",
+    "showdown": "^1.8.6"
   },
+  "repository": "https://github.com/kwakkwakkwak/typAd.git",
+  "keywords": [
+    "Electron",
+    "React",
+    "Memo"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "electron": "ELECTRON_START_URL=http://localhost:3001 electron .",
+    "electron": "ELECTRON_START_URL=http://localhost:3000 electron .",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -21,5 +34,4 @@
   },
   "main": "./main.js",
   "homepage": "./"
-
 }
